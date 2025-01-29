@@ -1,6 +1,5 @@
 ---
-license: mit
-library_name: transformers
+{}
 ---
 # DeepSeek-R1
 <!-- markdownlint-disable first-line-h1 -->
