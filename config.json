@@ -39,7 +39,7 @@
   "quantization_config": {
     "activation_scheme": "dynamic",
     "fmt": "e4m3",
-    "quant_method": "fp8",
+    "quant_method": "bitsandbytes_4bit",
     "weight_block_size": [
       128,
       128
