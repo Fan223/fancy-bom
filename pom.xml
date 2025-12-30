@@ -38,12 +38,14 @@
         <dubbo.version>3.3.6</dubbo.version>
         <hutool.version>5.8.42</hutool.version>
         <jackson.version>3.0.3</jackson.version>
+        <mybatis-plus.version>3.5.15</mybatis-plus.version>
+        <mockito.version>5.21.0</mockito.version>
 
         <lombok.version>1.18.42</lombok.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <mapstruct-plus.version>1.5.0</mapstruct-plus.version>
+        <h2.version>2.4.240</h2.version>
         <mysql.version>9.5.0</mysql.version>
-        <mybatis-plus.version>3.5.15</mybatis-plus.version>
         <dynamic-datasource.version>4.5.0</dynamic-datasource.version>
         <p6spy.version>2.0.0</p6spy.version>
         <druid.version>1.2.27</druid.version>
@@ -112,6 +114,20 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-bom</artifactId>
+                <version>${mybatis-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-bom</artifactId>
+                <version>${mockito.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -134,24 +150,14 @@
                 <version>${mapstruct-plus.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.mysql</groupId>
                 <artifactId>mysql-connector-j</artifactId>
                 <version>${mysql.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
-                <version>${mybatis-plus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-jsqlparser</artifactId>
-                <version>${mybatis-plus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.baomidou</groupId>
-                <artifactId>mybatis-plus-generator</artifactId>
-                <version>${mybatis-plus.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
