@@ -30,7 +30,7 @@
         <dynamic-datasource.version>4.5.0</dynamic-datasource.version>
         <h2.version>2.4.240</h2.version>
 
-        <caffeine.version>3.2.3</caffeine.version>
+        <caffeine.version>3.2.4</caffeine.version>
         <redisson.version>4.3.0</redisson.version>
         <admin.version>4.0.2</admin.version>
         <xxl-job.version>3.3.2</xxl-job.version>
