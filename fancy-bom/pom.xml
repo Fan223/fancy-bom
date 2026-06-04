@@ -22,7 +22,7 @@
         <dubbo.version>3.3.6</dubbo.version>
         <mockito.version>5.23.0</mockito.version>
 
-        <lombok.version>1.18.44</lombok.version>
+        <lombok.version>1.18.46</lombok.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <mysql.version>9.6.0</mysql.version>
         <p6spy.version>2.0.0</p6spy.version>
